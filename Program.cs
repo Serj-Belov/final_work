@@ -1,4 +1,6 @@
-﻿string NewArray(string[] arr)
+﻿int a = 3;
+
+string NewArray(string[] arr)
 {
     string result = "";
     for (int i = 0; i < arr.Length; i++)
@@ -21,3 +23,5 @@
 
 
 string[] str = { "ewff", "dcwfe", "fs", "123", "saf" };
+string res = NewArray(str);
+System.Console.WriteLine(res);
